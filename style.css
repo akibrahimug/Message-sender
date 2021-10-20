@@ -1,0 +1,60 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+}
+
+.wrapper{
+    text-align: center;
+    background-color:rgb(3, 41, 73);
+    padding: 20px;
+    color: azure;
+}
+
+label{
+    visibility: hidden;
+    position: absolute;
+}
+
+input[type='text']{
+    width: 70%;
+    padding: 10px;
+    background-color: azure;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    outline:none;
+}
+
+input[type='submit']{
+    border-radius: 0 10px 10px 0;
+    width: 20%;
+    padding: 10px;
+    background-color: rgb(141, 226, 226);
+    border: none;
+    color: rgb(3, 41, 73);
+    transition: background-color, 0.3s;
+}
+
+input[type='submit']:hover{
+    background-color:rgb(3, 41, 73);
+    color: azure;
+    border: 2px solid azure;
+}
+
+form{
+    width: 100%;
+}
+
+p{
+    background-color: azure;
+    color:rgb(3, 41, 73);
+    font-size: large;
+    font-style: italic;
+    font-weight: 800;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border-left: 10px solid rgb(141, 226, 226);
+}
